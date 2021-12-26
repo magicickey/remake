@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+header
+{
+    display: flex;
+    justify-content: center;
+    background-image: url(misc/grille.png);
+}
+
+nav
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+
+h2
+{
+    font-family: 'Oswald', sans-serif;
+    color: #FC9304;
+    font-weight: 400;
+}
+
+h3
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color:#525252;
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+
+h4
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color:#818181;
+    font-size: large;
+}
+
+.hostel
+{
+    margin-right: 20px;
+}
+
+.ristorante
+{
+    margin-right: 20px;
+}
+
+.service
+{
+    margin-right: 20px;
+}
+
+.acti
+{
+    margin-right: 20px;
+}
+
+.plus
+{
+    margin-right: 20px;
+}
+
+iframe
+{
+    border-radius: 5px;
+}
+
+.video
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.slogan
+{
+    display: flex;
+    justify-content: center;
+    font-family: droid-serif, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#616161;
+    background-image: url(misc/grille.png);
+    font-style: italic;
+    font-size: large;
+}
+
+a
+{
+    font-family: "DroidSerif-Regular", serif;
+    text-decoration: none;
+    color:#979797;
+}
+
+li
+{
+    list-style-type: none;
+
+}
+
+.orange
+{
+    display: block;
+    width: 120px;
+    height: 7px;
+    background-color: rgb(255, 136, 0);
+    margin-bottom: 10px;
+}
+
+.yellow
+{
+    display: block;
+    width: 120px;
+    height: 7px;
+    background-color: rgba(255, 230, 0, 0.972);
+    margin-bottom: 10px;
+}
+
+.green
+{
+    display: block;
+    width: 120px;
+    height: 7px;
+    background-color: rgb(43, 226, 27);
+    margin-bottom: 10px;
+}
+
+.blue
+{
+    display: block;
+    width: 120px;
+    height: 7px;
+    background-color: rgb(13, 9, 246);
+    margin-bottom: 10px;
+}
+
+.purple
+{
+    display: block;
+    width: 120px;
+    height: 7px;
+    background-color: rgb(88, 17, 219);
+    margin-bottom: 10px;
+    
+}
+
+.logo
+{
+    margin-right: 100px;
+    margin-top:30px;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.golf
+{
+
+    border-width:2px;
+    border-style:groove;
+    border-color:rgb(255, 255, 255);
+    height: 360px;
+    padding: 10px;
+    padding-top:0%;
+    order: 0;
+    align-self: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#fin
+{
+    display: flex;
+    margin-left: 19%;
+    margin-right: 19%;
+    justify-content: space-around;
+}
+
+p
+{
+    font-family: "DroidSerif-Regular", serif;
+    font-size: small; 
+    color:#525252;
+}
+
+#navnous
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactus
+{
+    padding-right: 10%;
+    width: 50%;
+  
+}
+
+.lastbill
+{
+    padding-right: 10%;
+}
+
+.lastcom
+{
+    padding-right: 10%;
+}
+
+.ligne
+{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(211, 211, 211);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    opacity: 0.33;
+}
+
+#mid
+{
+    padding-top: 10px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-left: 12%;
+    padding-bottom:30px;
+}
+
+.sport
+{
+    order: 0;
+    align-self: auto;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 20%;
+    font-size: 12px;
+}
+
+.comment
+{
+    
+    order: 0;
+    align-self: auto;
+    width: 430px;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    display: block;
+    width: 35%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.media img
+{
+    border: 1px solid #f2f2f2cc;
+    padding: 5px;
+    margin: 5px;
+    border-radius:2px;
+}
+
+footer
+{
+    background-image: url(misc/grille.png);
+}
+
+@media all and (max-width:480px)
+{
+    .body{float: none; width:30%; margin-left:5%;}
+}
+
+span
+{
+    margin-left: 20%;
+}
+
+#copy {
+    float:right;
+}
+
+#social{
+   
+        float: left;
+        margin-right: 6px; 
+}
+
+#media img {
+    width: auto;
+transition: transform .1s;
+}
+
+#media img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(3.5);
+}
